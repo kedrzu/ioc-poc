@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "CommonJS",
+        "lib": ["esnext", "esnext.asynciterable"],
+        "moduleResolution": "node",
+        "composite": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": false,
+        "noImplicitOverride": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "resolveJsonModule": true,
+        "incremental": true,
+        "types": ["@types/node", "@iocpoc/types"]
+    },
+    "exclude": ["node_modules"]
+}

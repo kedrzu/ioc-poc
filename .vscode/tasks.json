@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "eslint",
+            "problemMatcher": ["$eslint-stylish"],
+            "label": "eslint: lint whole folder"
+        },
+        {
+            "type": "npm",
+            "script": "watch",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "build watch",
+            "detail": "tsc --build --watch"
+        }
+    ]
+}

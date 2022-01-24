@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.base.json",
+    "references": [
+        {
+            "path": "./packages/ioc"
+        },
+        {
+            "path": "./packages/utils"
+        }
+    ],
+    "include": [],
+    "compilerOptions": {
+        "types": ["@types/node", "@types/jest", "@iocpoc/types"]
+    }
+}

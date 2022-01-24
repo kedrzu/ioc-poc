@@ -1,0 +1,13 @@
+{
+    "name": "@iocpoc/ioc",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "types": "./src/index.ts",
+    "sideEffects": false,
+    "repository": "https://github.com/kedrzu/iocpoc.git",
+    "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
+    "private": true,
+    "dependencies": {
+        "@iocpoc/types": "1.0.0"
+    }
+}

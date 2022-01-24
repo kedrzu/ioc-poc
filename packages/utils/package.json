@@ -1,0 +1,17 @@
+{
+    "name": "@iocpoc/utils",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "types": "./src/index.ts",
+    "sideEffects": false,
+    "repository": "https://github.com/kedrzu/iocpoc.git",
+    "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
+    "private": true,
+    "dependencies": {
+        "@iocpoc/types": "1.0.0",
+        "@types/lodash": "^4.14.178",
+        "@types/lodash-es": "^4.17.5",
+        "lodash": "^4.17.21",
+        "lodash-es": "^4.17.21"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "@iocpoc/types",
+    "license": "MIT",
+    "version": "1.0.0",
+    "types": "shims.d.ts",
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    }
+}
